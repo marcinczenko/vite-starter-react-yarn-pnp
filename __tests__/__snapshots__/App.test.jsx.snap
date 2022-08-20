@@ -1,0 +1,48 @@
+// Vitest Snapshot v1
+
+exports[`App > has proper styling 1`] = `
+<div>
+  <div
+    class="w-screen h-screen flex flex-col items-center justify-center bg-blue-700 text-white text-4xl"
+  >
+    <p>
+      vite-tailwind-starter
+    </p>
+    <div
+      class="bg-white p-1"
+    >
+      <p
+        class="text-xl text-blue-700"
+      >
+        with yarn pnp
+      </p>
+    </div>
+    <p
+      class="text-base"
+    >
+      with eslint
+    </p>
+    <p
+      class="text-xl"
+    >
+      with local 
+      <span
+        class="font-roboto-mono text-3xl font-thin"
+      >
+        Roboto Mono
+      </span>
+       font
+    </p>
+    <p
+      class="text-xl"
+    >
+      and 
+      <span
+        class="font-roboto-mono italic text-3xl font-thin"
+      >
+        Roboto Mono Italic
+      </span>
+    </p>
+  </div>
+</div>
+`;

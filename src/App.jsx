@@ -1,34 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
-
-function App () {
-  const [count, setCount] = useState(0)
-
-  return (
-    <div className='App'>
-      <div>
-        <a href='https://vitejs.dev' target='_blank' rel='noreferrer'>
-          <img src='/vite.svg' className='logo' alt='Vite logo' />
-        </a>
-        <a href='https://reactjs.org' target='_blank' rel='noreferrer'>
-          <img src={reactLogo} className='logo react' alt='React logo' />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className='card'>
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className='read-the-docs'>
-        Click on the Vite and React logos to learn more
-      </p>
+const App = () => (
+  <div className='w-screen h-screen flex flex-col items-center justify-center bg-blue-700 text-white text-4xl'>
+    <p>vite-tailwind-starter</p>
+    <div className='bg-white p-1'>
+      <p className='text-xl text-blue-700'>with yarn pnp</p>
     </div>
-  )
-}
+    <p className='text-base'>with eslint</p>
+    <p className='text-xl'>with local <span className='font-roboto-mono text-3xl font-thin'>Roboto Mono</span> font</p>
+    <p className='text-xl'>and <span className='font-roboto-mono italic text-3xl font-thin'>Roboto Mono Italic</span></p>
+  </div>
+)
 
 export default App
